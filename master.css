@@ -1,0 +1,23 @@
+body{
+  background-color: #a378c4;
+  background-image: url("https://vignette.wikia.nocookie.net/here-be-dragons/images/4/41/Shambhala.jpg/revision/latest/scale-to-width-down/1000?cb=20190817024354");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+h1{
+  text-align: center;
+  color: blue;
+  font-family: cursive;
+}
+h2{
+  color: yellow;
+}
+p{
+  color: white;
+  font-size: 20px;
+  font-family: monospace;
+}
+div{
+  margin: 5px;
+  padding: 5px;
+}
