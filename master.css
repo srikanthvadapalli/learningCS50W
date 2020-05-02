@@ -30,3 +30,6 @@ input[type=text]:hover{
   cursor: move;
   shape-margin: 30px;
 }
+form{
+  border:5px solid magenta;
+}
