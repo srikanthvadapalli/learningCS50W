@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width initial-scale = 1.0">
     <title>CS50 Learning Hub</title>
     <link rel="stylesheet" href="master.css">
   </head>
@@ -10,18 +10,76 @@
     <p>This website consist of many self paced learning courses</p>
     <form class="" action="index.html" method="post">
       <div>
-        <h2 class="d">Sign Up</h2>
-        <input type="text" name="First Name" value="" placeholder="First Name">
-        <input type="text" name="Last Name" value="" placeholder="Last Name">
-        <input type="submit" name="Sign Up" value="Sign Up">
+        <div class="SignUp">
+          <h2 class="d">Sign Up</h2>
+          <input type="text" name="First Name" value="" placeholder="First Name">
+          <input type="text" name="Last Name" value="" placeholder="Last Name">
+          <input list="age" name="age" placeholder = "Age">
+            <datalist id = 'age'>
+              <option value="19">
+              <option value="20">
+              <option value="21">
+              <option value="22">
+              <option value="23">
+              <option value="24">
+              <option value="25">
+              <option value="26">
+              <option value="27">
+              <option value="28">
+              <option value="29">
+              <option value="20">
+            </datalist>
+          <input type="submit" name="Sign Up" value="Sign Up">
+        </div>
         <br>
-        <h2 class="d">Login</h2>
-        <input type="text" name="usrname" value="" placeholder="user name">
-        <input type="password" name="password" value="" placeholder="Password">
-        <input type="submit" name="Login" value="Login">
+        <div class="login">
+          <h2 class="d">Login</h2>
+          <input type="text" name="usrname" value="" placeholder="user name">
+          <input type="password" name="password" value="" placeholder="Password">
+          <input type="submit" name="Login" value="Login">
+        </div>
       </div>
-
-
     </form>
+    <table class = "screen-only">
+      <tr>
+        <th>S.No</th>
+        <th>Name</th>
+        <th>Qualification</th>
+        <th>Occupation</th>
+      </tr>
+      <tr>
+        <td>1.</td>
+        <td>Srikanth Vadapalli</td>
+        <td>M.Tech</td>
+        <td>Employed in IT firm</td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td>Pranuthi Konidena</td>
+        <td>B.Tech</td>
+        <td>Employed in IT firm</td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td>Bhaskar Siva N</td>
+        <td>M.Tech</td>
+        <td>Self Employed / Business</td>
+      </tr>
+    </table>
+
+    <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <ul>
+        <li>Sub list item 1</li>
+        <li>Sub list item 2</li>
+        <ol>
+          <li>Grand Child item 1</li>
+          <li>Grand Child item 2</li>
+        </ol>
+      </ul>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ol>
   </body>
 </html>
