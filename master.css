@@ -1,10 +1,21 @@
-@media screen and (min-width:400px){
-  background-color:green;
+@media print{
+  .screen-only{
+    display: none;
+  }
+}
+@@media (min-width: 500px) {
+  body{
+    background-color: green;
+  }
+}
+@media (max-width: 499px){
+  body{
+    background-color: red;
+  }
+
 }
 body{
-    background-image: url("https://vignette.wikia.nocookie.net/here-be-dragons/images/4/41/Shambhala.jpg/revision/latest/scale-to-width-down/1000?cb=20190817024354");
-    background-repeat: no-repeat;
-    background-attachment:inherit;
+    background-color: gray;
     background-size:100%;
 }
 h1, h2{
@@ -16,12 +27,14 @@ h2{
   text-align: justify;
   color: magenta;
 }
+h1:hover{
+  color:blue;
+}
 
 p{
   color: white;
   font-size: 20px;
   font-family: monospace;
-  padding: 50px;
 }
 div{
   margin: 10px;
@@ -33,6 +46,14 @@ input[type=text]:hover{
   cursor: move;
   shape-margin: 30px;
 }
+input[type=submit]{
+  width:10%;
+  height:10%;
+}
+input[type=submit]:hover{
+  background-color: red;
+  color: yellow;
+}
 form{
   border:5px solid yellow;
 }
@@ -43,4 +64,22 @@ table, td, th{
   font-size: 100%;
   margin: 20px;
   padding:10px;
+}
+ol {
+  color: white;
+  font-weight: bolder;
+  font-family: cursive;
+}
+p::selection{
+  color:red;
+  background-color: blue;
+}
+p:hover{
+  color:red;
+}
+form:hover{
+  border: 10px dotted red;
+  background-image: url(https://image.freepik.com/free-vector/stylish-wavy-indian-flag-theme-background_1055-7109.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
