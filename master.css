@@ -1,7 +1,11 @@
+@media screen and (min-width:400px){
+  background-color:green;
+}
 body{
-  background-image: url("https://vignette.wikia.nocookie.net/here-be-dragons/images/4/41/Shambhala.jpg/revision/latest/scale-to-width-down/1000?cb=20190817024354");
-  background-repeat: no-repeat;
-  background-size:100%;
+    background-image: url("https://vignette.wikia.nocookie.net/here-be-dragons/images/4/41/Shambhala.jpg/revision/latest/scale-to-width-down/1000?cb=20190817024354");
+    background-repeat: no-repeat;
+    background-attachment:inherit;
+    background-size:100%;
 }
 h1, h2{
   text-align: center;
@@ -21,7 +25,6 @@ p{
 }
 div{
   margin: 10px;
-  padding: 30px;
 }
 input[type=password]{
   color: magenta;
@@ -31,5 +34,13 @@ input[type=text]:hover{
   shape-margin: 30px;
 }
 form{
-  border:5px solid magenta;
+  border:5px solid yellow;
+}
+table, td, th{
+  color: white;
+  border: 5px solid orange;
+  border-collapse:collapse;
+  font-size: 100%;
+  margin: 20px;
+  padding:10px;
 }
