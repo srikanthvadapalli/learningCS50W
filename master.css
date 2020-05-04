@@ -43,7 +43,6 @@ input[type=password]{
   color: magenta;
 }
 input[type=text]:hover{
-  cursor: move;
   shape-margin: 30px;
 }
 input[type=submit]{
